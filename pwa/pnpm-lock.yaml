@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@api-platform/admin':
     specifier: ^3.4.4
-    version: 3.4.4(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    version: 3.4.4(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.3.1)(react@18.2.0)
   '@fontsource/poppins':
     specifier: ^5.0.8
     version: 5.0.8
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^14.1.1
     version: 14.1.1(@babel/core@7.22.20)(react-dom@18.2.0)(react@18.2.0)
   postcss:
-    specifier: ^8.4.30
-    version: 8.4.30
+    specifier: ^8.5.10
+    version: 8.5.10
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -54,7 +54,7 @@ devDependencies:
     version: 18.2.7
   autoprefixer:
     specifier: ^10.4.15
-    version: 10.4.15(postcss@8.4.30)
+    version: 10.4.15(postcss@8.5.10)
   eslint:
     specifier: ^8.49.0
     version: 8.49.0
@@ -86,7 +86,7 @@ packages:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.19
 
-  /@api-platform/admin@3.4.4(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0):
+  /@api-platform/admin@3.4.4(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.3.1)(react@18.2.0):
     resolution: {integrity: sha512-5asbnAISQs8U6iC7zwspI2HZzoZmFJ2fWwvr2WIOyAGNs61ZAH/c+3AiO8g8/ZhLHogpb7LMe3K//TRoQaZGBg==}
     peerDependencies:
       react: '*'
@@ -98,7 +98,7 @@ packages:
       lodash.isplainobject: 4.0.6
       prop-types: 15.8.1
       react: 18.2.0
-      react-admin: 4.14.1(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+      react-admin: 4.14.1(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.3.1)(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
       react-error-boundary: 3.1.4(react@18.2.0)
     transitivePeerDependencies:
@@ -1132,7 +1132,7 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /autoprefixer@10.4.15(postcss@8.4.30):
+  /autoprefixer@10.4.15(postcss@8.5.10):
     resolution: {integrity: sha512-KCuPB8ZCIqFdA4HwKXsvz7j6gvSDNhDP7WnUjBleRkKjPdvCmHFuQ77ocavI8FT6NdvlBnE2UFr2H4Mycn8Vew==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1144,7 +1144,7 @@ packages:
       fraction.js: 4.3.6
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.30
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -2640,8 +2640,8 @@ packages:
       big-integer: 1.6.51
     dev: false
 
-  /nanoid@3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
+  /nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -2865,6 +2865,9 @@ packages:
   /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
 
+  /picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
+
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -2877,27 +2880,27 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
 
-  /postcss-import@15.1.0(postcss@8.4.30):
+  /postcss-import@15.1.0(postcss@8.5.10):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.30
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.6
 
-  /postcss-js@4.0.1(postcss@8.4.30):
+  /postcss-js@4.0.1(postcss@8.5.10):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.30
+      postcss: 8.5.10
 
-  /postcss-load-config@4.0.1(postcss@8.4.30):
+  /postcss-load-config@4.0.1(postcss@8.5.10):
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -2910,16 +2913,16 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.30
+      postcss: 8.5.10
       yaml: 2.3.2
 
-  /postcss-nested@6.0.1(postcss@8.4.30):
+  /postcss-nested@6.0.1(postcss@8.5.10):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.30
+      postcss: 8.5.10
       postcss-selector-parser: 6.0.13
 
   /postcss-selector-parser@6.0.13:
@@ -2932,22 +2935,22 @@ packages:
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  /postcss@8.4.30:
-    resolution: {integrity: sha512-7ZEao1g4kd68l97aWG/etQKPKq07us0ieSZ2TnFDk11i0ZfDW2AwKHYU8qv4MZKqN2fdBfg+7q0ES06UA73C1g==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-
   /postcss@8.4.31:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
+      nanoid: 3.3.11
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
     dev: false
+
+  /postcss@8.5.10:
+    resolution: {integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.11
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
 
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -3038,7 +3041,7 @@ packages:
       - react-router-dom
     dev: false
 
-  /ra-ui-materialui@4.14.1(@mui/icons-material@5.14.9)(@mui/material@5.14.10)(ra-core@4.14.1)(react-dom@18.2.0)(react-hook-form@7.46.1)(react-is@18.2.0)(react-router-dom@6.16.0)(react-router@6.16.0)(react@18.2.0):
+  /ra-ui-materialui@4.14.1(@mui/icons-material@5.14.9)(@mui/material@5.14.10)(ra-core@4.14.1)(react-dom@18.2.0)(react-hook-form@7.46.1)(react-is@18.3.1)(react-router-dom@6.16.0)(react-router@6.16.0)(react@18.2.0):
     resolution: {integrity: sha512-/xbmt1qSow/LfsP1VEowSGA4HD5ANXQXQcXln9cRLgwgvaqHnauBvbNfxXUzHAHuD28wR/R70hodDgs/+gbXjw==}
     peerDependencies:
       '@mui/icons-material': ^5.0.1
@@ -3069,7 +3072,7 @@ packages:
       react-dropzone: 12.1.0(react@18.2.0)
       react-error-boundary: 3.1.4(react@18.2.0)
       react-hook-form: 7.46.1(react@18.2.0)
-      react-is: 18.2.0
+      react-is: 18.3.1
       react-query: 3.39.3(react-dom@18.2.0)(react@18.2.0)
       react-router: 6.16.0(react@18.2.0)
       react-router-dom: 6.16.0(react-dom@18.2.0)(react@18.2.0)
@@ -3085,7 +3088,7 @@ packages:
       setimmediate: 1.0.5
     dev: false
 
-  /react-admin@4.14.1(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0):
+  /react-admin@4.14.1(@types/react@18.2.22)(react-dom@18.2.0)(react-is@18.3.1)(react@18.2.0):
     resolution: {integrity: sha512-LVE7H9zBzSU8r+sq6WgfT0j5bm/MLZNvLS8sLrnuIAF95VAy36rkQMkzT+v2jFEEQFSvmX7rRP4jDQo/XP0Miw==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
@@ -3099,7 +3102,7 @@ packages:
       ra-core: 4.14.1(history@5.3.0)(react-dom@18.2.0)(react-hook-form@7.46.1)(react-router-dom@6.16.0)(react-router@6.16.0)(react@18.2.0)
       ra-i18n-polyglot: 4.14.1(history@5.3.0)(react-dom@18.2.0)(react-hook-form@7.46.1)(react-router-dom@6.16.0)(react-router@6.16.0)(react@18.2.0)
       ra-language-english: 4.14.1(history@5.3.0)(react-dom@18.2.0)(react-hook-form@7.46.1)(react-router-dom@6.16.0)(react-router@6.16.0)(react@18.2.0)
-      ra-ui-materialui: 4.14.1(@mui/icons-material@5.14.9)(@mui/material@5.14.10)(ra-core@4.14.1)(react-dom@18.2.0)(react-hook-form@7.46.1)(react-is@18.2.0)(react-router-dom@6.16.0)(react-router@6.16.0)(react@18.2.0)
+      ra-ui-materialui: 4.14.1(@mui/icons-material@5.14.9)(@mui/material@5.14.10)(ra-core@4.14.1)(react-dom@18.2.0)(react-hook-form@7.46.1)(react-is@18.3.1)(react-router-dom@6.16.0)(react-router@6.16.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-hook-form: 7.46.1(react@18.2.0)
@@ -3165,6 +3168,10 @@ packages:
 
   /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+    dev: false
+
+  /react-is@18.3.1:
+    resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
     dev: false
 
   /react-query@3.39.3(react-dom@18.2.0)(react@18.2.0):
@@ -3382,8 +3389,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /source-map-js@1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+  /source-map-js@1.2.1:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
   /source-map@0.5.7:
@@ -3530,11 +3537,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.4.30
-      postcss-import: 15.1.0(postcss@8.4.30)
-      postcss-js: 4.0.1(postcss@8.4.30)
-      postcss-load-config: 4.0.1(postcss@8.4.30)
-      postcss-nested: 6.0.1(postcss@8.4.30)
+      postcss: 8.5.10
+      postcss-import: 15.1.0(postcss@8.5.10)
+      postcss-js: 4.0.1(postcss@8.5.10)
+      postcss-load-config: 4.0.1(postcss@8.5.10)
+      postcss-nested: 6.0.1(postcss@8.5.10)
       postcss-selector-parser: 6.0.13
       resolve: 1.22.6
       sucrase: 3.34.0
@@ -3686,7 +3693,7 @@ packages:
     dependencies:
       browserslist: 4.21.10
       escalade: 3.1.1
-      picocolors: 1.0.0
+      picocolors: 1.1.1
 
   /uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
